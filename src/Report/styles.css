@@ -1,0 +1,105 @@
+
+.App-header {
+
+    background-color: rgb(245, 245, 245);
+    color: black;
+    padding: 10px;
+    text-align: center;
+  }
+  .other-stats-boxes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  .boxes {
+
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 20px;
+
+  }
+  .tabs {
+
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    justify-content: center;
+
+  }
+  .tab {
+  background-color: #dcd1d1;
+  padding: 5px 200px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  }
+  .boxx {
+
+    background-color: rgb(96, 182, 210); 
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+  }
+
+  .box {
+
+    background-color: #4CAF50; 
+    padding: 20px 120px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+  }
+  .request-metrics-table{
+    width: 1200px;
+    padding: 0%;
+    justify-content: center;
+    margin-left: 30px;
+    background-color: #c6c5c5;
+  }
+  .even-row{
+    background-color: #f2f2f2;
+  }
+  .odd-row{
+    background-color: white;
+  } 
+  .group{
+    font-weight: bold;
+  }
+  .group-name{
+    font-weight: bold;
+  }
+  .group-table{
+    border: 2px solid black;
+    padding: 10px, 35px;
+    width: 100%; 
+
+  }
+  .icon {
+    font-size: 24px;
+    color: #333;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .tab.active {
+    background-color: white; 
+    border-bottom: white;
+  }
+  th, td {
+    padding: 10px 35px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;}
+  th{
+    background-color: #f2f2f2;
+
+  }
+  .note{
+    margin-left: 80px;
+  }
+  h2{
+    text-align: left;
+  }
+ 
+ 
+  

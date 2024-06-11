@@ -1,0 +1,13 @@
+#Checkboxes_container{
+    border: 1px solid black;
+    width: 400px;
+    padding: 0%;
+    margin-top: 100px;
+   
+}
+#Checkboxes{
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    
+}

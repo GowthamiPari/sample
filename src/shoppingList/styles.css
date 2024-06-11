@@ -1,0 +1,42 @@
+.container{
+    background-color: rgb(235, 130, 165);
+    background-size:auto;
+    width: 100%;
+    height: 700px;
+  }
+  .card-title{
+    text-align: center;
+    font-size: 15px;
+  }
+  .card{
+    background-color: aliceblue;
+    width: 550px;
+    height: 300px;
+    max-height: 1200px;
+    border-style: dotted;
+    
+  }
+  .delete{
+    color:red;
+    cursor: pointer;
+  }
+  .items{
+    align-items: center;  
+    
+  }
+  .order{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .card-body{
+    height: 400px;
+  }
+  .itemListBox {
+      width: 220px;
+      max-height: 1200px;
+      height: 150px;
+      overflow-y: auto;
+      margin-top: 10px;
+  }
+  

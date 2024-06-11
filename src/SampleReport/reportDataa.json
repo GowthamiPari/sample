@@ -1,0 +1,51 @@
+{
+    "features": [
+      {
+        "name": "Footer",
+        "description": "For a successful logged-in user, user should be able to view footer section",
+        "scenarios": [
+          {
+            "name": "Ability to view copyright text",
+            "status": "Passed",
+            "duration": 130,
+            "steps": [
+              {"name": "Given feature uses the data file 'json://ASSESSMENT_CONFIG'", "status": "Passed"},
+              {"name": " And employee successfully logs-in as 'json://LOGIN_USER_DATA#employeeUserValidAdmin_RW'", "status": "Passed"},
+              {"name": "Then user should be able to view 'Copyright Text'", "status": "Passed"}
+            ]
+          },
+          {
+            "name": "Ability to navigate to the LOL Privacy Notice page",
+            "status": "Failed",
+            "duration": 180,
+            "steps": [
+              {"name": "Given feature uses the data file 'json://ASSESSMENT_CONFIG'", "status": "Passed"},
+              {"name": " And employee successfully logs-in as 'json://LOGIN_USER_DATA#employeeUserValidAdmin_RW'", "status": "Passed"},
+              {"name": "When user clicks on 'LOL Privacy Notice' link", "status": "Passed"},
+              {"name": "Then user navigates to 'LOL Privacy Notice' page", "status": "Failed"}
+
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Employee Authentication",
+        "description": "For a user with valid login credentials, user should be able to login",
+        "scenarios": [
+          {
+            "name": "Login should pass",
+            "status": "Passed",
+            "duration": 220,
+            "steps": [
+              {"name": "Given User navigates to the application", "status": "Passed"},
+              {"name": "And user clicks on employee related sign-in button ", "status": "Passed"},
+              {"name": "When employee logs-in as 'json://LOGIN_USER_DATA#employeeUserValidTSP_RW'", "status": "Passed"},
+              {"name": " And 'Home' item must be highlighted", "status": "Passed"}
+
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

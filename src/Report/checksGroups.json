@@ -1,0 +1,66 @@
+{
+    "groups": [
+        {
+          "name": "Group - GrowerOrder account-list-1",
+          "checks": [
+            {
+              "name": "status code should be 200",
+              "passes": 327,
+              "failures": 0
+            },
+            {
+              "name": "response should have at least one item",
+              "passes": 327,
+              "failures": 0
+            },
+            {
+              "name": "response should have account info with account number",
+              "passes": 327,
+              "failures": 0
+            },
+            {
+              "name": "response should have account info with account name",
+              "passes": 327,
+              "failures": 0
+            }
+          ]
+        },
+        {
+          "name": "Group - GrowerOrder account-list-2",
+          "checks": [
+            {
+              "name": "status code should be 200",
+              "passes": 327,
+              "failures": 0
+            },
+            {
+              "name": "response should have at least one item",
+              "passes": 327,
+              "failures": 0
+            },
+            {
+              "name": "response should have account info with account number",
+              "passes": 327,
+              "failures": 0
+            },
+            {
+              "name": "response should have account info with account name",
+              "passes": 327,
+              "failures": 0
+            }
+          ]
+        }
+      ],
+      "otherChecks": {
+        "name":"Other Checks",
+        "checks": [
+            {
+                "checkName":{
+                    "name":"",
+                    "passes":"",
+                    "failures":""
+                }
+            }
+        ]
+      }
+}
